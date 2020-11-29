@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My web Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="sticky">
+<nav class="zone">
+<div class="search-container" style="width: 40%;">
+		<div id="example" class="example" style="margin-top:10px;width:100%">
+			<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+		  	<button type="submit"><i class="fa fa-search"></i></button>
+		  	<div id="myMenu">
+	    		<ul style="padding-inline-start: 0px;">
+	    		
+		      		<li><a href="#C1">Cashew</a></li>
+		   			<li><a href="#R1">Raisins</a></li>
+		     		<li><a href="#A1">Almonds</a></li>
+		     		<li><a href="#P1">Pista</a></li>
+		   			<li><a href="#W1">Walnut</a></li>
+		     		<li><a href="#CC1">Coconut</a></li>
+		     	    
+		      		<li><a href="#C1">Cashew</a></li>
+		   			<li><a href="#R1">Raisins</a></li>
+		     		<li><a href="#A1">Almonds</a></li>
+		     		<li><a href="#P1">Pista</a></li>
+		   			<li><a href="#W1">Walnut</a></li>
+		     		<li><a href="#CC1">Coconut</a></li>
+		     	    
+		      		<li><a href="#C1">Cashew</a></li>
+		   			<li><a href="#R1">Raisins</a></li>
+		     		<li><a href="#A1">Almonds</a></li>
+		     		<li><a href="#P1">Pista</a></li>
+		   			<li><a href="#W1">Walnut</a></li>
+		     		<li><a href="#CC1">Coconut</a></li>
+		     	
+	      		</ul>
+	      	</div>
+	    </div>
+
+		<div class="dropdown cartlogo">
+  			<a href="#"><span>Returns<br>&Orders</span></a>
+  			<div class="dropdown-content">
+  				<div class="dropdown-content">
+					<a href="#">Your Account</a>
+					<a href="#">Your Order</a>
+					<a href="#">Your Wistlist</a>
+				</div>
+			</div>
+		</div>
+		<a href=""><div class="cartlogo"><i class="fa fa-shopping-cart" style="font-size:35px;color:white"></i> Cart </div></a>
+</div>
+
+	<ul class="main-nav" style="margin: 10px; ">
+		<div id="mySidebar" class="sidebar">
+		    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> × </a>
+		    <div style="margin-left: 10px;">Hello, Sign In</div>
+		    <h4>My Account</h4>
+		    <a href="KiranaStore.html">Home</a>
+		    <a href="#">Your Orders</a>
+		    <a href="#">Your Wistlist</a>
+		    <a href="#">Your Cart</a>
+		    <h4>shop by categories</h4>
+		    <a href="#Dry Fruits" class="tablinks" onclick="openCity(event, 'Dry Fruits')">Dry Fruits</a>
+		    <a href="#Spices" class="tablinks" onclick="openCity(event, 'Spices')">Spices</a>
+		    <a href="#Pulses" class="tablinks" onclick="openCity(event, 'Pulses')">Pulses</a>
+		    <a href="#" >Rice</a>
+        </div>
+	<div id="sidetoggelmenu">
+	  <button class="openbtn" style="margin-top: 0px;" onclick="openNav()"> ☰ </button>  
+	</div>
+		<li><a href="KiranaStore.html"><img src="logoimage.png"></a></li>
+		<li><h4 class="head">FOOD STORE</h4></li>
+	</ul>
+</nav>
+</div>
+<div id="scrollmenu1" class="scrollmenu">
+  <a href="KiranaStore.html">Home</a>
+  <a href="#footerzone">Contact</a>
+  <a href="#footerzone">About</a>
+  <a href="#footerzone">Support</a>
+  <a href="#">More </a>
+</div>
+
+<div id="scrollmenu2" class="scrollmenu">
+	<div class="example" style="width:100%">
+		<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+	  	<button type="submit"><i class="fa fa-search"></i></button>
+	  	<div id="myMenu">
+	    	<ul style="padding-inline-start: 0px;">
+	        	<li><a href="#C1">Cashew</a></li>
+		   		<li><a href="#R1">Raisins</a></li>
+		   		<li><a href="#A1">Almonds</a></li>
+		   		<li><a href="#P1">Pista</a></li>
+	   			<li><a href="#W1">Walnut</a></li>
+	     		<li><a href="#CC1">Coconut</a></li>
+		     	    
+		      	<li><a href="#C1">Cashew</a></li>
+		   		<li><a href="#R1">Raisins</a></li>
+		   		<li><a href="#A1">Almonds</a></li>
+		   		<li><a href="#P1">Pista</a></li>
+	   			<li><a href="#W1">Walnut</a></li>
+	     		<li><a href="#CC1">Coconut</a></li>
+		     	    
+		      	<li><a href="#C1">Cashew</a></li>
+		   		<li><a href="#R1">Raisins</a></li>
+		 		<li><a href="#A1">Almonds</a></li>
+	     		<li><a href="#P1">Pista</a></li>
+	   			<li><a href="#W1">Walnut</a></li>
+		     	<li><a href="#CC1">Coconut</a></li>		    
+		    </ul>
+	    </div>
+	</div>
+</div>
+<div class="container">
+	<div class="blogheading" style="font-size: 2em;">
+		<p> Buy Best products at cheapest rate <br> You will get everything here at lowest price </p><br>
+	</div>
+</div>
+
+<div class="blogheading">
+	<p>List of all items</p>
+</div>
+
+<div class="tab">
+	<button class="tablinks" onmouseover ="openCity(event, 'Dry Fruits')" id="defaultOpen">Dry Fruits</button>
+	<button class="tablinks" onmouseover ="openCity(event, 'Spices')">Spices</button>
+	<button class="tablinks" onmouseover ="openCity(event, 'Pulses')">Pulses</button>
+</div>
+<div id="Dry Fruits"  class="tabcontent" style="display: contents;">
+  <div class="grid-wrapper">
+	<figure>
+	<a href="" id="C1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\cashew.jpg"></div></dfn></a>
+	<figcaption>Cashew<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\raisin.jpg"></div></dfn></a>
+	<figcaption>Raisin<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\almond.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\pista.jpg"></div></dfn></a>
+	<figcaption>Pista<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\walnut.jpg"></div></dfn></a>
+	<figcaption>Walnut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\coconut.jpg"></div></dfn></a>
+	<figcaption>Coconut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CS1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\cashew.jpg"></div></dfn></a>
+	<figcaption>Cashew<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\raisin.jpg"></div></dfn></a>
+	<figcaption>Raisin<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\almond.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\pista.jpg"></div></dfn></a>
+	<figcaption>Pista<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\walnut.jpg"></div></dfn></a>
+	<figcaption>Walnut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-dryfruits\coconut.jpg"></div></dfn></a>
+	<figcaption>Coconut<br>Rs.500/kg</figcaption>
+	</figure>
+  </div>
+</div>
+<div id="Spices" class="tabcontent">
+  <div class="grid-wrapper">
+	<figure>
+	<a href="" id="C1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\blackpepperpowder.jpg"></div></dfn></a>
+	<figcaption>Cashew<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\corianderpowder.jpg"></div></dfn></a>
+	<figcaption>Raisin<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\cumminpowder.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\mirchpowder.jpeg"></div></dfn></a>
+	<figcaption>Pista<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\turmericpowder.jpeg"></div></dfn></a>
+	<figcaption>Walnut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\sabjimasala.png"></div></dfn></a>
+	<figcaption>Coconut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CS1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\garammasala.jpg"></div></dfn></a>
+	<figcaption>Cashew<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\kitchenkingmasala.jpeg"></div></dfn></a>
+	<figcaption>Raisin<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\pavbhajimasala.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\chaatmasala.jpg"></div></dfn></a>
+	<figcaption>Pista<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\chholemasala.jpg"></div></dfn></a>
+	<figcaption>Walnut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\sambharmasala.png"></div></dfn></a>
+	<figcaption>Coconut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\panipurimasala.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\meatmasala.png"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\shahibiryanimasal.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-everestmasalas\shahipaneermasala.jpg"></div></dfn></a>
+	<figcaption>Almond<br>Rs.500/kg</figcaption>
+	</figure>
+  </div>
+</div>
+<div id="Pulses" class="tabcontent">
+  <div class="grid-wrapper">
+	<figure>
+	<a href="" id="C1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\Toor-arhar-dal.jpeg"></div></dfn></a>
+	<figcaption>Toor/Arhar Dal<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\masoor-dal.jpg"></div></dfn></a>
+	<figcaption>Masoor Dal<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\urad-dal.jpg"></div></dfn></a>
+	<figcaption>Urad dal<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\chana-dal.jpg"></div></dfn></a>
+	<figcaption>Chana Dal<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\brown-chickpeas.jpg"></div></dfn></a>
+	<figcaption>Brown-Chickpeas<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\chickpeas.jpg"></div></dfn></a>
+	<figcaption>White-Chickpeas<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CS1"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\dry-cloves.jpg"></div></dfn></a>
+	<figcaption>Rajma Bean<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="R2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\green-mung-bean.jpg"></div></dfn></a>
+	<figcaption>Green-mung<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="A2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\mutter-dal.png"></div></dfn></a>
+	<figcaption>Mutter<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="P2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\mutter-dal.png"></div></dfn></a>
+	<figcaption>Pista<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="W2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\mutter-dal.png"></div></dfn></a>
+	<figcaption>Walnut<br>Rs.500/kg</figcaption>
+	</figure>
+	<figure>
+	<a href="" id="CC2"><dfn title="Click for more info"><div class="box zone repeating-linear"><img src="image-pulses-rices\mutter-dal.png"></div></dfn></a>
+	<figcaption>Coconut<br>Rs.500/kg</figcaption>
+	</figure>
+  </div>
+</div>
+
+<div>
+	<iframe src="slideshow.html" width="100%" height="300px" title="slideshow" style="border: none;border-top:1px solid red;"></iframe>
+</div>
+
+
+
+
+
+<footer id="footerzone">
+	<div class="flex-container">
+  		<div>
+			<p>Eat healthy,Stay healthy</p>
+			<p>About us <br> &copy santo <br>For HomeDelivery<br><a href="tel:8340465517"><span>8340465517 &#9990</span></a></p>
+		</div>
+		<div class="contact">
+			<p>Connect with us</p>
+	 		<div class="icon-bar">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a> 
+			 	<a href="#" class="twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a> 
+			 	<a href="#" class="google"><i class="fa fa-google"></i><span>Google</span></a> 
+			 	<a href="#" class="linkedin"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
+			</div>
+	  		<!-- <ul>
+				<li><a href="https://www.instagram.com/santo_the_king/"><img src="instalogo.png"></a></li>
+				<li><a href="https://www.facebook.com/santosh46236"><img src="facebooklogo.png"></a></li>
+				<li><a href="https://www.gmail.com"><img src="gmaillogo.png"></a></li>
+		 	</ul> -->
+		</div>
+  		<div class="address">
+  			<p>Address:-<br>Kali Asthan Mani Road, Murarpur<br>Gaya,Bihar<br>Pincode: 823001</p>
+		</div>
+	</div>
+
+</footer>
+
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dots");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
