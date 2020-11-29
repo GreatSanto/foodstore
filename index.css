@@ -218,12 +218,12 @@ body{
 	margin: 20px 0px 10px 10px ;
 }
 .openbtn {
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   background-color: #000;
   color: white;
-  padding: 10px 10px;
-  border: 1px solid white;
+  padding: 3px 5px;
+  border: 1px solid grey;
   margin-bottom: 10px;
 }
 .openbtn:hover {
@@ -253,7 +253,7 @@ div.scrollmenu {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
-  margin-top: 68px;
+  margin-top: 62px;
 }
 div.scrollmenu a {
   display: inline-block;
@@ -290,10 +290,11 @@ a:hover {
 	justify-content: center;
 	height: 60vh;
 	margin-top: 0px;
-	background-image: url('grocery.jpg');
+	background-image: url('containerimage.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .blogheading{
 	display: flex;
 	align-items: center;
