@@ -13,7 +13,6 @@ body{
 	background: #000000;
 	color: #ffad33;
 	border: 1px solid #bbb;
-	transition: all 0.2s linear;
 }
 .sticky{
 	position: fixed;
@@ -251,7 +250,7 @@ div.scrollmenu {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
-  margin-top: 78px;
+  margin-top: 75px;
 }
 div.scrollmenu a {
   display: inline-block;
@@ -292,7 +291,6 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 .blogheading{
 	display: flex;
 	align-items: center;
@@ -343,6 +341,7 @@ a:hover {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  text-align: center;
 }
 .grid-wrapper{
 	display: grid;
@@ -358,7 +357,7 @@ a:hover {
 .box{
 	background-color: #fff;
 	padding: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 .box > img{
 	max-width: 100%;
