@@ -33,7 +33,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-#myMenu {
+#myMenu,#myMenu2 {
   display: none;
   position: absolute;
   padding: 0;
@@ -41,13 +41,13 @@ body{
   background-color: white;
   width: 30%;
 }
-#myMenu li{
+#myMenu li,#myMenu2 li{
   list-style-type: none;
   text-align: left;
   margin-left: 10px;
   padding-bottom: 5px;
 }
-#myMenu li a {
+#myMenu li a, #myMenu2 li a{
   padding: 0px;
   margin: 0px;
   color: black;
@@ -55,10 +55,10 @@ body{
   font-size: 0.7em;
   text-align: left;
 }
-#myMenu li a:hover {
+#myMenu li a:hover,#myMenu2 li a:hover {
   background-color: #eee;
 }
-.example:hover #myMenu{
+.example:hover #myMenu,.example:hover #myMenu2{
  display: block;
 }
 .example input[type=text] {
