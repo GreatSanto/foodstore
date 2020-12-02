@@ -39,6 +39,12 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 
+// function closeSearchMenu() {
+//   document.getElementById("myMenu2").style.display = "none";
+// }
+// function openSearchMenu() {
+//   document.getElementById("myMenu2").style.display = "block";
+// }
 
 function openCategories(evt, categoriesName) {
   var i, tabcontent, tablinks;
