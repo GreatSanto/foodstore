@@ -39,7 +39,7 @@ body{
   padding: 0;
   margin-top: 40px;
   background-color: white;
-  width: 30%;
+  width: 25%;
 }
 #myMenu li,#myMenu2 li{
   list-style-type: none;
@@ -95,38 +95,17 @@ body{
 .dropdown {
   position: relative;
   display: inline-block;
+  font-size: 0.9em;
+  color: #fff;
+  width: 25%;
 }
 .cartlogo{
   font-style: italic;
   background-color: black;
   display: flex;
-  margin-right: 10px;
   margin-left: 10px;
   align-items: center;
  }
-.dropdown-content {
-  display: none;
-  position: fixed;
-  background-color: #f9f9f9;
-  margin-top: 12px;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  z-index: 1;
-}
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-   z-index: 1;
-}
 .main-nav{
   float: none;
   display: flex;
@@ -173,8 +152,8 @@ body{
 .sidebar h4{
   color: black;
   border-top:1px solid grey;
-  padding-top: 15px;
-  margin: 20px 0px 10px 10px ;
+  padding: 10px;
+  margin: 10px 0px 0px 10px ;
 }
 .openbtn {
   font-size: 30px;
@@ -353,6 +332,9 @@ footer{
   padding: 0px;
   text-align: center;
 }
+.contact >p{
+  margin-bottom: 0px;
+}
 .contact  a{
   display: flex;
   align-items: center;
@@ -370,7 +352,6 @@ footer{
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 4px;
   transition: all 0.3s ease;
   color: white;
 }
