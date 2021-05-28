@@ -4,10 +4,10 @@
 </head>
 <body>
   <div id="my-signin2"></div></a>
-  <a href="index.html" onclick="onSuccess(googleUser)">
   <script>
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+      window.location = "https://greatsanto.github.io/foodstore/index.html"
     }
     function onFailure(error) {
       console.log(error);
