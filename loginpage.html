@@ -3,7 +3,8 @@
   <meta name="google-signin-client_id" content="311282273971-5lcoged0uc2d8ois050tmabh9i42f8o5.apps.googleusercontent.com">
 </head>
 <body>
-  <a href="index.html"><div id="my-signin2"></div></a>
+  <div id="my-signin2"></div></a>
+  <a href="index.html" onclick="onSuccess(googleUser)">
   <script>
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -26,7 +27,7 @@
 
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 <br><br><br><br><br><br><br><br>
-<a href="#" onclick="signOut();">Sign out</a>
+<a href="index.html" onclick="signOut();">Sign out</a>
 <script>
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
