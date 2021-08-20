@@ -155,6 +155,11 @@ body{
   padding: 10px;
   margin: 10px 0px 0px 10px ;
 }
+.tablinks{
+  font-weight: bolder;
+  font-family: Arial Bold;
+  box-shadow: 1px 1px 3px red;
+}
 .openbtn {
   font-size: 30px;
   cursor: pointer;
@@ -240,8 +245,8 @@ a:hover {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 5px;
-  margin: 5px;
+  padding: 0.8%;
+  margin: 2% 1% 2% 1%;
   transition: 0.3s;
   font-size: 17px;
   border:1px solid red;
@@ -265,7 +270,7 @@ a:hover {
   display: grid;
   grid-row-gap: 10px;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
-  margin-top: 0px;
+  margin:5% 0 5% 0;
 }
 .box{
   background-color: #fff;
@@ -275,6 +280,7 @@ a:hover {
 .box > img{
   max-width: 100%;
   height: 200px;
+  border-radius: 50%;
 }
 .repeating-linear {
     border: 1px solid brown;
@@ -286,7 +292,7 @@ a:hover {
 }
 figcaption {
   background-color: black;
-  color: white;
+  color: #0CED00;
   font-style: italic;
   padding: 2px;
   text-align: left;
@@ -361,6 +367,15 @@ footer{
 }
 .icon-bar a:hover{
   color: blue;
+}
+.like_button_container{
+  background-color: #ff0000;
+  border-radius: 2px;
+  border-style: none;
+  font-weight: bolder;
+  color: #fff;
+  padding: 3px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 360px){
   .example button{
