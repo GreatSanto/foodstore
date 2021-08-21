@@ -217,7 +217,7 @@ a:hover {
   height: 60vh;
   width: 100%;
   margin-top: 0px;
-  background-image: url('containerimage.png');
+  background-image: url('../Images/containerimage.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
